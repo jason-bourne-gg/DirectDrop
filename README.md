@@ -4,6 +4,8 @@ Send a file **straight to another browser** — no upload, no server, no account
 Pick a file, get a link, share it; the file streams **peer-to-peer over WebRTC**
 directly to whoever opens the link.
 
+**Live:** https://direct-drop-sigma.vercel.app
+
 **Stack:** Vite · TypeScript · [Trystero](https://github.com/dmotz/trystero) (WebRTC over serverless Nostr signaling). No backend.
 
 ## How it works
