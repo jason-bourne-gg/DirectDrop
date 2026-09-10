@@ -3,14 +3,21 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "DirectDrop — send a file straight to another browser over WebRTC. No upload, no server, peer-to-peer.",
+  "description": "DirectDrop \u2014 send a file straight to another browser over WebRTC. No upload, no server, peer-to-peer.",
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview --port 4173",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
   },
-  "keywords": ["webrtc", "p2p", "file-transfer", "trystero", "serverless"],
+  "keywords": [
+    "webrtc",
+    "p2p",
+    "file-transfer",
+    "trystero",
+    "serverless"
+  ],
   "author": "Aniket Ravindra Charjan",
   "license": "MIT",
   "dependencies": {
@@ -18,6 +25,7 @@
   },
   "devDependencies": {
     "typescript": "^5.6.3",
-    "vite": "^5.4.11"
+    "vite": "^5.4.11",
+    "vitest": "^2.1.9"
   }
 }
