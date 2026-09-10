@@ -6,6 +6,11 @@ directly to whoever opens the link.
 
 **Live:** https://direct-drop-sigma.vercel.app
 
+![The DirectDrop send screen](docs/app.png)
+
+*Pick a file and you get a link. Whoever opens it connects straight to you —
+the bytes never touch a server.*
+
 **Stack:** Vite · TypeScript · [Trystero](https://github.com/dmotz/trystero) (WebRTC over serverless Nostr signaling). No backend.
 
 ## How it works
